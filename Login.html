@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a2dd6045c4.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Medical-Sur</title>
+    <link rel="stylesheet" href="estilos_login.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+
+<body class="general">
+    <div class="container-fluid">
+
+        <!--Encabezado-->
+        <div class="row">
+            <div class="encabezado-login col-sm-12 d-flex justify-content-center align-items-center mt-4">
+                <h1 id="nombre_eps">Medical-Sur</h1>
+                <img id=logo_eps src="imagenes/Medical_sur.png" alt="imagen_Medical_sur">
+            </div>
+        </div>
+
+        <!--Formulario-->
+        <div class="row justify-content-center">
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-5">
+                <h2 class="text-center">Iniciar sesión</h2>
+                <div class="formulario d-flex justify-content-center">
+                    <form action="#" method="post" class="col-10">
+
+                        <!--Campo email formulario-->
+                        <div class="input-contenedor col-12">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" required>
+                            <label for="#">Email</label>
+                        </div>
+                        <!--Campo contrasena formulario-->
+                        <div class="input-contenedor col-12">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" required>
+                            <label for="#">Contraseña</label>
+                        </div>
+                        <!--Olvidar-->
+                        <div class="olvidar col-12">
+                            <label for="#">
+                                <input type="checkbox">
+                                <a href="#">Olvidé mi contraseña</a>
+                            </label>
+                        </div>
+                        <!--Enviar peticio-->
+                        <div class="col-12">
+                            <button class="btn btn-success">Iniciar Sesión</button>
+                            <div class="registrar">
+                                <a href="#" class="btn-registrar btn btn-outline-dark">Registrarse</a>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--Pie de pagina-->
+        <div class="row pie_pagina">
+            <div class="col-sm-12 d-flex justify-content-center align-items-center">
+                <h4>Desarrollado por: SubGrupo-6</h4>
+            </div>
+        </div>
+
+        <!--Logo whspp-->
+        <a href="https://api.whatsapp.com/send/?phone=573245300755">
+            <img src="imagenes/icono_wspp_all.png" alt="icono_wspp" class="whatsapp">
+        </a>
+        
+    </div>
+    <script src="./js/bootstrap.min.js">
+
+    </script>
+</body>
+</html>

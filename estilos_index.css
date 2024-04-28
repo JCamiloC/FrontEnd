@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.general{
+    margin: auto;
+    margin-top: 0px;
+    width: 1280px;
+    height: 720px;
+    background-color: #FDF2E9;
+
+}*/
+
+/* 
+    SECCION IZQUIERDA
+*/
+.izquierda{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    border-radius: 2%;
+    width: 30%;
+    height: 650px;
+    background: #D6EAF8;
+    background-position: center;
+    background-size: cover;
+    border: solid;
+}
+
+/*.general section div img{
+    margin-top: 10px;
+    margin-left: 145px;
+    width: 90px;
+}*/
+
+.datos_perfil{
+    padding: 10px;
+}
+
+.campos_datos_personales{
+    padding: 10px;
+    align-items: left;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    size: 25px;
+}
+
+#nombre{
+    display: flex;
+    justify-content: right;
+}
+
+#contrasena{
+    color: blue;
+    text-decoration: underline ;
+    font-size: 1rem;
+}
+
+.campo_contrasena{
+    border-radius: 7%;
+    padding: 10px;
+    border: solid 2px;
+    width: 80%;
+    background-color: white;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+/*input{
+    justify-content: center;
+}*/
+
+
+.contactanos{
+    margin: 20px auto;
+    width: 75px;
+    height: 20px;
+    border-radius: 23px;
+    background: #7D3C98;
+    border: solid;
+    cursor: pointer;
+    outline: none;
+    padding-right: 10px;
+}
+    
+.contactanos p{
+    color: #FDF2E9;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+
+/* 
+    SECCION DERECHA
+*/
+
+.derecha{
+    float: right;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 60%;
+    height: 650px;
+    background-color: none;
+    border: solid;
+}
+
+.encabezado{
+    height: 25px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+/*#nombre_eps{
+    margin-left: 200px;
+    margin-top: 30px;
+    color: #0E6655;
+    font-size: 1.5rem;
+}
+
+
+#logo_eps{
+
+    height: 70px;
+}*/
+
+
+/*nav {
+    margin-left: 5%;
+    margin-top: 70px;
+    background-color: #138D75; 
+    width: 90%;
+    border-radius: 15%;    
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 10px; 
+    margin: 10px;
+    margin-left: 0; 
+    display: flex; 
+}
+
+nav li {
+    padding: 10px 15px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white; 
+}
+
+
+nav a:hover {
+    text-decoration: underline; 
+}*/
+
+.cerrar_Sesion{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #2874A6;
+}
+
+/*BOTON DE WHATSAPP*/
+/*.whatsapp{
+    width: 60px;
+    position: fixed;
+    top: 90%;
+    transform: translateY(-50%); 
+    right: 10%; 
+}*/
+
+
+/* CONTINUAR EL CODIGO DESDE AQUI ----------------*/
+.noticias{
+    margin-left:6px;
+    border: solid 1.8px;
+    width: 750px;
+    height: 328px;
+    background-color: #D4EFDF;
+
+}
+
+.noticias h3{
+    text-align: center;
+}
+
+.contenedor{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#textoNoticias1{
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    width: 300px;
+    justify-content: center;
+    background-color: none;
+}
+
+#textoNoticias2{
+    margin-top: 50px;
+    margin-right: 50px;    
+    float: right;
+    width: 300px;
+    justify-content: center;
+    background-color: none;
+}
+
+/*Codigo por Oscar Yate*/
+section{
+    padding-left: 300px;
+}
+
+.general{
+    background-color: #FDF2E9;
+}
+  
+.encabezado{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado-login > h1{
+    margin-right: 7px;
+    color: #0E6655;
+    font-size: 35px;
+}
+
+.encabezado-login > img{
+    margin-right: 7px;
+    color: #0E6655;
+    height: 70px;
+}
+
+.navbar-nav > a:not(:last-child){
+    margin-right: 7px;
+}
+
+.navbar-nav > a{
+    background-color: #0E6655;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.navbar-nav > a.active{
+    background-color: #222;
+    color: #fff !important;
+}
+
+.navbar-nav > a:active{
+    background-color: blue;
+}
+
+aside{
+    height: 100vh;
+    width: 300px;
+    position:fixed;
+    display: flex;
+    background-color:#d1d1d1;
+    border-right: 1px solid silver;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    overflow: auto;
+}
+.avatar-perfil{
+    width: 88px;
+    margin: auto;
+}
+
+.form-perfil{
+    padding-bottom: 50px;
+}
+
+.form-perfil > div{
+    display: grid;
+}
+
+.form-perfil > div  label{
+    margin-bottom: .1rem;
+    font-size: 13px;
+}
+
+.form-perfil .cont-perfil-contrasena{
+    background-color: #fff;
+}
+
+.cont_novedades{
+    padding: 35px;
+}
+
+.cont_novedades > div{
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    overflow: auto;
+}
+
+.grid-seccion-img-news .card{
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 90px;
+    right: 10px;
+    width: 60px;
+
+  }
+  
+@media only screen and (max-width:600px){
+    .encabezado-login {
+        flex-direction: column;
+    }
+
+    .encabezado-login  > h1{
+        margin-right: 0;
+        color: #0E6655;
+        font-size: 35px;
+    }
+}

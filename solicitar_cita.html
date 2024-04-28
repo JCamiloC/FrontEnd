@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Cita</title>
+    <link rel="stylesheet" href="estilosSolicitarCita.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body class="general">
+
+    <header>
+
+    </header>
+    <main>
+        <!-- Sidebar -->
+        <aside>
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Perfil Foto -->
+                    <div class="col-12 d-flex flex-column text-center mt-4">
+                        <img class="avatar-perfil" src="./imagenes/icono_usuario.png" alt="">
+                        <a href="#">Cerrar sesion</a>
+                    </div>
+                    <!-- Datos perfil -->
+                    <div class="col-12 mt-4">
+                        <form action="#" method="POST" class="row form-perfil">
+                            <div class="mb-2 col-12">
+                                <label for="nomb_paci" class="form-label">Nombre</label>
+                                <input type="text" disabled readonly class="form-control form-control-sm" id="nomb_paci">
+                            </div>
+                            <div class="mb-2 col-12">
+                                <label for="apel_paci" class="form-label">Apellidos</label>
+                                <input type="text" disabled readonly class="form-control form-control-sm" id="apel_paci">
+                            </div>
+                            <div class="mb-2 col-12">
+                                <label for="naci_paci" class="form-label">Nacimiento</label>
+                                <input type="date" disabled readonly class="form-control form-control-sm" id="naci_paci">
+                            </div>
+                            <div class="mb-2 col-12">
+                                <label for="dire_paci" class="form-label">Direccion</label>
+                                <input type="text" class="form-control form-control-sm" id="dire_paci">
+                            </div>
+                            <div class="mb-2 col-12">
+                                <label for="tele_paci" class="form-label">Telefono</label>
+                                <input type="text" class="form-control form-control-sm" id="tele_paci">
+                            </div>
+                            <!-- Datos perfil contrasena-->
+                            <div class="mt-3 mb-3 cont-perfil-contrasena pt-3 pb-3">
+                                <div class="mb-2 col-12">
+                                    <label for="contra_actu" class="form-label">Contrasena actual</label>
+                                    <input type="password" class="form-control form-control-sm" id="contra_actu">
+                                </div>
+                                <div class="mb-2 col-12">
+                                    <label for="contra_nuev" class="form-label">Contrasena nueva</label>
+                                    <input type="password" class="form-control form-control-sm" id="contra_nuev">
+                                </div>
+                                <div class="mb-2 col-12">
+                                    <label for="contra_nuev_repe" class="form-label">Confirme nueva contrasena</label>
+                                    <input type="password" class="form-control form-control-sm" id="contra_nuev_repe">
+                                </div>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button class="btn btn-primary mb-2">Actualizar datos</button>
+                                <a href="#" class="btn-registrar btn btn-outline-dark">Contactanos</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <section>
+            <div class="container-fluid">
+                <!--Encabezado-->
+                 <div class="row">
+                    <div class="encabezado-login col-sm-12 d-flex justify-content-end align-items-center mt-4">
+                        <h1 id="nombre_eps">Medical-Sur</h1>
+                        <img id=logo_eps src="imagenes/Medical_sur.png" alt="imagen_Medical_sur">
+                    </div>
+                </div>
+                <!--Opciones-->
+                <div class="row">
+                    <div class="col-sm-12 mt-4">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                              <!--<a class="navbar-brand" href="#">Navbar</a>-->
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                  <a class="nav-link active" aria-current="page" href="solicitar_cita.html">Solicitar cita</a>
+                                  <a class="nav-link" href="historia_clinica.html">Historia clinica</a>
+                                  <a class="nav-link" href="consulta_result.html">Consulta de resultados</a>
+                                  <a class="nav-link" href="tram_Autorizaciones.html">Tramites y autorizaciones</a>
+                                </div>
+                              </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row cont_novedades">
+                    <div>
+                        <div class="col-12">
+                            <h4 class="text-center mb-4">Solicitudes de citas medicas y de especialistas</h4>
+                        </div>
+                        <div class="row justify-content-evenly">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="table-responsive">
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> medicina general</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> medicina interna</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> pediatria</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> Otorrinonaringología</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> Cardiología</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> Dermatología</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> Oftalmología</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> Ortopedia</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> Psiquiatría</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> Traumatología</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> Reumatología</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="btn btn-success">Solicitar cita <br> Ginecología</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>    
+
+    <script src="./js/bootstrap.min.js">
+
+    </script>
+    <!--BOTON DE WHATSAPP-->
+    <a href="https://api.whatsapp.com/send/?phone=573245300755">
+        <img src="imagenes/icono_wspp_all.png" alt="icono_wspp" class="whatsapp">
+    </a>
+
+</body>
+</html>
